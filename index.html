@@ -31,16 +31,6 @@
   <body>
     <section>
       <div class="title">
-        <h3>PROFESSIONAL SUMMARY</h3>
-      </div>
-      <div class="summary-text" style="margin: 10px 15px; text-align: justify;">
-        <p>
-          Aspiring Software Engineer blending an analytical background in Psychology with strong technical proficiency in full-stack and mobile development. Experienced in building cloud-native applications and real-time multiplayer systems using modern frameworks like .NET, React, and Android MVVM. A collaborative team player who quickly absorbs new methodologies and applies technical knowledge to optimize complex workflows.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class="title">
         <h3>EDUCATION</h3>
       </div>
       <div class="school">
@@ -53,7 +43,7 @@
       <div class="degree">
         <p class="masters">
           <i>Master of Science, Software Engineering</i>
-          <span> | <u>GPA</u>:<b> 3.83</b></span>
+          <span> | <u>GPA</u>:<b> 3.90</b></span>
         </p>    
       </div>
       <div class="relevant-coursework">
@@ -73,13 +63,13 @@
       </div>
       <div class="degree">
         <i>Bachelor of Arts, Psychology</i>
-        <span> | <u>GPA</u>:<b> 3.65</b></span>
+        <span> | <u>GPA</u>:<b> 3.70</b></span>
       </div>
       <div class="relevant-coursework">
         <p>
           <u>Relevant Coursework:</u>
           <span>
-            Data Structures & Algorithms, Introduction to Programming, Introduction to Software Engineering.
+            Data Structures & Algorithms using C++, Introduction to Programming with Python, Introduction to Software Engineering.
           </span>
         </p>
       </div>
@@ -99,18 +89,22 @@
       </div>
       <div class="skills">
         <div class="skills-list">
-          <p>Programming:</p>
-          <p>Technologies:</p>
+          <p>Languages:</p>
+          <p>Frontend:</p>
+          <p>Backend:</p>
           <p>Databases:</p>
+          <p>ORMs & Auth:</p>
           <p>DevOps & Cloud:</p>
           <p>Tools:</p>
         </div>
         <div class="skills-description">
-          <p>C#, Java, Python, JavaScript, TypeScript, C++, HTML/CSS</p>
-          <p>React, Node.js, .NET, Entity Framework Core, Vite, Android Architecture Components, Dagger/Hilt</p>
-          <p>Azure SQL, Firebase Realtime Database, PostgreSQL, MongoDB</p>
-          <p>Docker, AWS, Vercel, Render, CI/CD Pipelines</p>
-          <p>Git/GitHub, LegalConnect, VS Code, Android Studio</p>
+          <p>TypeScript, JavaScript, C#, Java, Python, C++, SQL, HTML/CSS</p>
+          <p>React, Next.js, Tailwind CSS, Vite</p>
+          <p>Node.js, .NET, Express.js, Next.js Server Actions/API Routes</p>
+          <p>PostgreSQL, Supabase, MongoDB, Firebase Realtime Database, Azure SQL</p>
+          <p>Prisma, Entity Framework Core, NextAuth.js, Supabase Auth</p>
+          <p>Docker, AWS, Vercel, Render, CI/CD Pipelines, GitHub Actions</p>
+          <p>Git, GitHub, VS Code, Android Studio, Postman</p>
         </div>
       </div>
     </section>
@@ -118,6 +112,29 @@
     <section>
       <div class="title">
         <h3>PROJECTS</h3>
+      </div>
+
+      <div class="project">
+        <p>
+          <b>World Cup 2026 Fantasy Football</b>
+          <span> (Next.js, React, TypeScript, PostgreSQL, Prisma, Supabase, Tailwind CSS, NextAuth.js, Docker, Vercel)</span>
+        </p>
+        <p><i>June 2026</i></p>
+      </div>
+      <div>
+        <p>
+          <u>Source code</u>
+          <a href="https://github.com/tim-perez/World-Cup-Fantasy" target="_blank"><span>: github.com/tim-perez/2026-World-Cup-Fantasy</span></a>
+        </p>
+      </div>
+      <div class="project-description">
+        <p>Designed and engineered a full-stack fantasy football platform modeled after UEFA Champions League Fantasy, supporting complex squad management, authentication workflows, and real-time matchday interactions.</p>
+        <ul>
+          <li>Architected a full-stack application using Next.js App Router, React Server Components, PostgreSQL, Prisma ORM, and Supabase.</li>
+          <li>Developed complex squad-building systems enforcing dynamic formation validation, transfer logic, and real-time budget constraints.</li>
+          <li>Implemented secure authentication workflows including OAuth, bcrypt password hashing, protected sessions, and password recovery with SendGrid.</li>
+          <li>Designed scalable relational database schemas and deployed cloud-native infrastructure using Docker, Vercel, and CI/CD workflows.</li>
+        </ul>
       </div>
       
       <div class="project">
@@ -137,12 +154,12 @@
         </p>
       </div>
       <div class="project-description">
-        <p>A cloud-native web application designed to streamline the management, uploading, and organization of legal court documents.</p>
+        <p>Developed a cloud-native legal document management platform focused on secure file workflows, role-based access control, and scalable backend infrastructure.</p>
         <ul>
-          <li>Engineered a scalable backend using C#/.NET and Entity Framework Core connected to an Azure SQL Database.</li>
-          <li>Developed a responsive frontend with React and Vite, featuring Role-Based Access Control (RBAC) and dynamic UI components.</li>
-          <li>Implemented AI-assisted document title generation and a secure soft-delete recycle bin ecosystem.</li>
-          <li>Architected a fully automated CI/CD deployment pipeline utilizing GitHub, Vercel, and Render.</li>
+          <li>Engineered a scalable RESTful backend using C#/.NET, Entity Framework Core, and Azure SQL for secure document management operations.</li>
+          <li>Developed responsive frontend systems using React, Vite, and Tailwind CSS with dynamic UI interactions and reusable components.</li>
+          <li>Implemented Role-Based Access Control (RBAC), AI-assisted document title generation, and secure soft-delete restoration workflows.</li>
+          <li>Automated Docker-based local environments and CI/CD deployment pipelines using GitHub, Vercel, and Render.</li>
         </ul>
       </div>
 
@@ -160,17 +177,17 @@
         </p>
       </div>
       <div class="project-description">
-        <p>A peer-to-peer, real-time multiplayer party card game for Android focusing on distributed state management.</p>
+        <p>Built a real-time multiplayer Android card game focused on distributed state synchronization, fault tolerance, and reactive mobile architecture.</p>
         <ul>
-          <li>Implemented distributed fault tolerance with a deterministic host-election algorithm to ensure seamless gameplay upon user disconnection.</li>
-          <li>Synchronized complex game phases across remote clients with millisecond latency using Firebase Realtime Database and Android LiveData.</li>
-          <li>Integrated enterprise-grade dependency injection via Dagger/Hilt to ensure clean separation of concerns and memory efficiency.</li>
-          <li>Built frictionless user onboarding through custom URL scheme deep linking and developed aggressive client-side input sanitization logic.</li>
+          <li>Engineered deterministic host-migration systems enabling seamless recovery from player disconnects without centralized server intervention.</li>
+          <li>Synchronized multiplayer game state across remote Android clients using Firebase transactional updates and reactive LiveData pipelines.</li>
+          <li>Prevented race conditions during simultaneous user interactions through transactional database operations and Firebase security rules.</li>
+          <li>Architected the application using MVVM principles, Dagger/Hilt dependency injection, and deep-link onboarding systems for multiplayer invitations.</li>
         </ul>
       </div>
     </section>
 
-    <section>
+    <!-- <section>
       <div class="title">
         <h3>EXPERIENCE</h3>
       </div>
@@ -195,6 +212,6 @@
           </div>
         </ul>
       </div>
-    </section> 
+    </section>  -->
   </body>
 </html>
