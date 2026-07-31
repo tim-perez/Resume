@@ -1,5 +1,6 @@
 # 📄 My Resume
 
-[Click the image to download the full PDF version](https://github.com/user-attachments/files/28276715/Tim-Perez-Resume.pdf)
+[Click the image to download the full PDF version](https://github.com/user-attachments/files/30606816/Tim-Perez.pdf)
 
-![Tim Perez Resume Preview](./Tim-Perez-Preview.png)
+![Tim Perez Resume Preview](./Tim-Perez-Prev_Page_1.png)
+![Tim Perez Resume Preview](./Tim-Perez-Prev_Page_2.png)
